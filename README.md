@@ -82,10 +82,10 @@ Ex:
 
 1. Existing search will return empty results if no rooms are available for a given slot. Users want a suggestion functionality using which users can get a list of possible future slots [Size limit to 3] which can be booked.
 
-Eg. Assume no room is available for a slot then the search will return an empty result while SUGGEST command will return the next 3 suggestions.
+  Eg. Assume no room is available for a slot then the search will return an empty result while SUGGEST command will 
+  return the next 3 suggestions.
 
-Command: **SUGGEST 3:10**
-
+  Command: **SUGGEST 3:10**
 2.Unit tests and Logging.
 
 ### **Expectation**
